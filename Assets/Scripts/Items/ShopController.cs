@@ -11,21 +11,28 @@ public class ShopController : MonoBehaviour
     public bool guipuse;
 
     private int deltaWidth = 20;
+    private float timeToSlowMotion = 5.0f;
+    private bool isSlowMotion = false;
 
     void Update()
     {
         Time.timeScale = timer;
-        if (ispuse == true)
+        if (ispuse == true && !isSlowMotion)
         {
             timer = 0;
             guipuse = true;
 
         }
-        else if (ispuse == false)
+        else if (ispuse == false && !isSlowMotion)
         {
             timer = 1f;
             guipuse = false;
 
+        }
+
+        if(Input.GetKeyDown(KeyCode.Q) && player.checkSlowMotion())
+        {
+            StartCoroutine(SlowMotionMode());
         }
     }
 
@@ -63,30 +70,44 @@ public class ShopController : MonoBehaviour
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 100f, deltaWidth + 150f, 45f), "Максимальный боезапас"))
             {
-                player.ApplyPoints(-20);
-                player.SetBullets();
+                player.ApplyPoints(-100);
+                player.IncreaseBullets();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 50f, deltaWidth + 150f, 45f), "Максимальное здоровье"))
             {
-                player.ApplyPoints(-20);
-                player.ApplyHeal(100);
+                player.ApplyPoints(-100);
+                player.IncreaseHP();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 0f, deltaWidth + 150f, 45f), "Замедление времени"))
             {
-
+                player.UnlockSlowMotion();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) + 50f, deltaWidth + 150f, 45f), "Второе оружие"))
             {
-
+                player.ApplyPoints(-200);
+                player.UnlockSecondaryWeapon();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) + 100f, deltaWidth + 150f, 45f), "Пополнить боезапас"))
             {
-
+                player.ApplyPoints(-20);
+                player.SetBullets();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) + 150f, deltaWidth + 150f, 45f), "Пополнить здоровье"))
             {
-
+                player.ApplyPoints(-20);
+                player.RestoreHealth();
             }
         }
+    }
+
+    IEnumerator SlowMotionMode()
+    {
+        isSlowMotion = true;
+        timer = 0.5f;
+
+        yield return new WaitForSeconds(timeToSlowMotion);
+
+        timer = 1.0f;       
+        isSlowMotion = false;
     }
 }

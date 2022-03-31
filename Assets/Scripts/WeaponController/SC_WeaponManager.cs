@@ -9,6 +9,8 @@ public class SC_WeaponManager : MonoBehaviour
     [HideInInspector]
     public SC_Weapon selectedWeapon;
 
+    private bool isSecondaryWeaponUnlocked = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,26 +25,39 @@ public class SC_WeaponManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Select secondary weapon when pressing 1
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (isSecondaryWeaponUnlocked)
         {
-            primaryWeapon.ActivateWeapon(false);
-            secondaryWeapon.ActivateWeapon(true);
-            selectedWeapon = secondaryWeapon;
+            //Select secondary weapon when pressing 1
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                primaryWeapon.ActivateWeapon(false);
+                secondaryWeapon.ActivateWeapon(true);
+                selectedWeapon = secondaryWeapon;
+            }
         }
-
         //Select primary weapon when pressing 2
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            primaryWeapon.ActivateWeapon(true);
-            secondaryWeapon.ActivateWeapon(false);
-            selectedWeapon = primaryWeapon;
-        }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                primaryWeapon.ActivateWeapon(true);
+                secondaryWeapon.ActivateWeapon(false);
+                selectedWeapon = primaryWeapon;
+            }
     }
 
     public void SetBullets()
     {
         primaryWeapon.SetBullets();
         secondaryWeapon.SetBullets();
+    }
+
+    public void IncreaseBullets()
+    {
+        primaryWeapon.IncreaseBullets();
+        secondaryWeapon.IncreaseBullets();
+    }
+
+    public void UnlockSecondaryWeapon()
+    {
+        isSecondaryWeaponUnlocked = true;
     }
 }

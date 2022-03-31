@@ -138,4 +138,9 @@ public class SC_Weapon : MonoBehaviour
     {
         bulletsTotal = bulletsTotalDefault;
     }
+
+    public void IncreaseBullets()
+    {
+        bulletsTotalDefault += bulletsPerMagazineDefault;
+    }
 }

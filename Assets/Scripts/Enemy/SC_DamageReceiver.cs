@@ -9,6 +9,13 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     public SC_WeaponManager weaponManager;
 
     private bool onPause = false;
+    private bool isSlowMotionUnlocked = false;
+    private int hpTotalDeafault = 100;
+
+    public int GetHpDefault()
+    {
+        return hpTotalDeafault;
+    }
 
     public void ApplyDamage(float points)
     {
@@ -26,10 +33,15 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     {
         playerHP += points;
 
-        if (playerHP > 100)
+        if (playerHP > hpTotalDeafault)
         {
-            playerHP = 100;
+            playerHP = hpTotalDeafault;
         }
+    }
+
+    public void RestoreHealth()
+    {
+        playerHP = hpTotalDeafault;
     }
 
     public void ApplyPoints(int points)
@@ -51,5 +63,30 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     public void SetBullets()
     {
         weaponManager.SetBullets();
+    }
+
+    public void IncreaseBullets()
+    {
+        weaponManager.IncreaseBullets();
+    }
+
+    public void IncreaseHP()
+    {
+        hpTotalDeafault += 25;
+    }
+
+    public void UnlockSecondaryWeapon()
+    {
+        weaponManager.UnlockSecondaryWeapon();
+    }
+
+    public void UnlockSlowMotion()
+    {
+        isSlowMotionUnlocked = true;
+    }
+
+    public bool checkSlowMotion()
+    {
+        return isSlowMotionUnlocked;
     }
 }
