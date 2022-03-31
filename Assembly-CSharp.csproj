@@ -63,12 +63,15 @@
     <Compile Include="Assets\Scripts\Enemy\SC_EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\WeaponController\SC_InterfaceManager.cs" />
     <Compile Include="Assets\Scripts\Chunks\ChunkPlacer.cs" />
+    <Compile Include="Assets\Scripts\Spawnoint_script.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\WeaponController\SC_Bullet.cs" />
     <Compile Include="Assets\Scripts\Player\SC_CharacterController.cs" />
     <Compile Include="Assets\Scripts\Items\AmmoBag.cs" />
     <Compile Include="Assets\Scripts\Chunks\Chunk.cs" />
-    <Compile Include="Assets\Scripts\Spawnoint_script.cs" />
+    <Compile Include="Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs" />
+    <Compile Include="Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs" />
+    <Compile Include="Assets\Scripts\NavMesh\NavMeshSourceTag.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -19,6 +19,9 @@ public class SC_EnemySpawner : MonoBehaviour
     //How many enemies we already eliminated in the current wave
     int enemiesEliminated = 0;
     int totalEnemiesSpawned = 0;
+
+    private bool nextChunk = false;
+
     public static SC_EnemySpawner Instance { get; private set; }
 
     private List<Transform> spawnPointsList = new List<Transform>();
@@ -31,7 +34,7 @@ public class SC_EnemySpawner : MonoBehaviour
     public void addSpawnPoint(Transform spawnPoint)
     {
         spawnPointsList.Add(spawnPoint);
-        print(spawnPointsList.Count);
+        //print(spawnPointsList.Count);
     }
 
     // Start is called before the first frame update
@@ -73,7 +76,7 @@ public class SC_EnemySpawner : MonoBehaviour
                 //Spawn enemy 
                 if (totalEnemiesSpawned < enemiesToEliminate)
                 {
-                    Transform randomPoint = spawnPoints[Random.Range(0, spawnPoints.Length - 1)];
+                    Transform randomPoint = spawnPointsList[Random.Range(0, 1)]; //spawnPointsList.Count - 1)];
 
                     GameObject enemy = Instantiate(enemyPrefab, randomPoint.position, Quaternion.identity);
                     SC_NPCEnemy npc = enemy.GetComponent<SC_NPCEnemy>();
@@ -129,5 +132,16 @@ public class SC_EnemySpawner : MonoBehaviour
             waitingForWave = true;
             waveNumber++;
         }
+    }
+
+    public void SetNextChunk(bool logic)
+    {
+        nextChunk = logic;
+    }
+
+    public void DeleteSpawnPoints(int count)
+    {
+        spawnPointsList.RemoveAt(0);
+        spawnPointsList.RemoveAt(0);
     }
 }

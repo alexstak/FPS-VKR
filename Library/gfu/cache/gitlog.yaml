@@ -13,9 +13,285 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-03-31T16:26:49.178+03:00
-  initializedAtString: 2022-03-31T16:22:46.084+03:00
+  lastUpdatedAtString: 2022-03-31T19:34:44.159+03:00
+  initializedAtString: 2022-03-31T17:40:24.486+03:00
   log:
+  - commitID: 89595b3734072ae79d12265aa71ffed6b5119d88
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: connect new spawnPoints and enemy controller
+    description: 
+    timeString: 2022-03-31T16:28:45.000+03:00
+    commitTimeString: 2022-03-31T16:28:45.000+03:00
+    changes:
+    - path: .vs\FPS-2\v16\.suo
+      fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
+      projectPath: .vs\FPS-2\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\user\FPS-2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Chunk1.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk1.prefab
+      projectPath: Assets\Prefabs\Chunk1.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\SpawnPoint.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\SpawnPoint.prefab
+      projectPath: Assets\Prefabs\SpawnPoint.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\SpawnPoint.prefab.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\SpawnPoint.prefab.meta
+      projectPath: Assets\Prefabs\SpawnPoint.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Chunks\ChunkPlacer.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\ChunkPlacer.cs
+      projectPath: Assets\Scripts\Chunks\ChunkPlacer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy\SC_EnemySpawner.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Enemy\SC_EnemySpawner.cs
+      projectPath: Assets\Scripts\Enemy\SC_EnemySpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawnoint_script.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Spawnoint_script.cs
+      projectPath: Assets\Scripts\Spawnoint_script.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawnoint_script.cs.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Spawnoint_script.cs.meta
+      projectPath: Assets\Scripts\Spawnoint_script.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\user\FPS-2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\38\38778ddc3d94fbc93727f2e8ebe7464c
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\38\38778ddc3d94fbc93727f2e8ebe7464c
+      projectPath: Library\Artifacts\38\38778ddc3d94fbc93727f2e8ebe7464c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3e\3e496d675a40f59abcf1f8cd3a3a5b0a
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\3e\3e496d675a40f59abcf1f8cd3a3a5b0a
+      projectPath: Library\Artifacts\3e\3e496d675a40f59abcf1f8cd3a3a5b0a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\65\65fa0317dda8a89219417f460f8bdc6f
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\65\65fa0317dda8a89219417f460f8bdc6f
+      projectPath: Library\Artifacts\65\65fa0317dda8a89219417f460f8bdc6f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\68\6849c36a8080b8a1b9c168414d2ba29d
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\68\6849c36a8080b8a1b9c168414d2ba29d
+      projectPath: Library\Artifacts\68\6849c36a8080b8a1b9c168414d2ba29d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\84\842e273c0ed3d29a9a63046d7a5cd28b
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\84\842e273c0ed3d29a9a63046d7a5cd28b
+      projectPath: Library\Artifacts\84\842e273c0ed3d29a9a63046d7a5cd28b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\aa\aaeb38ba0f759d8eca5326b2242cd7e8
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\aa\aaeb38ba0f759d8eca5326b2242cd7e8
+      projectPath: Library\Artifacts\aa\aaeb38ba0f759d8eca5326b2242cd7e8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d3\d3ca0f7eed33296150311049e9fa837a
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\d3\d3ca0f7eed33296150311049e9fa837a
+      projectPath: Library\Artifacts\d3\d3ca0f7eed33296150311049e9fa837a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\fd\fddde042b2b359b7f644f6b01f9f9cf1
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\fd\fddde042b2b359b7f644f6b01f9f9cf1
+      projectPath: Library\Artifacts\fd\fddde042b2b359b7f644f6b01f9f9cf1
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\user\FPS-2\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\user\FPS-2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\3a\3aff6d4362d31d58e9c3c72aaf8e8a87.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\3a\3aff6d4362d31d58e9c3c72aaf8e8a87.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\3a\3aff6d4362d31d58e9c3c72aaf8e8a87.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\c0\c03b87800e6d66fa7fa52c065fa7e24b.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\c0\c03b87800e6d66fa7fa52c065fa7e24b.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\c0\c03b87800e6d66fa7fa52c065fa7e24b.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+      projectPath: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\84\847fc2fcb1e2e71c7b5c9a66d91c5e77.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\84\847fc2fcb1e2e71c7b5c9a66d91c5e77.json
+      projectPath: Library\StateCache\SceneView\84\847fc2fcb1e2e71c7b5c9a66d91c5e77.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\user\FPS-2\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-7cec11317aecf4544a2111a7058b5ebb
+      fullPath: C:\Users\user\FPS-2\Temp\UnityTempFile-7cec11317aecf4544a2111a7058b5ebb
+      projectPath: Temp\UnityTempFile-7cec11317aecf4544a2111a7058b5ebb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\user\FPS-2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: C:\Users\user\FPS-2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 1d97f0da17b644a06c735a59d4201ca077af5f99
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: Update .gitignore
+    description: 
+    timeString: 2022-03-31T16:28:09.000+03:00
+    commitTimeString: 2022-03-31T16:28:09.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\user\FPS-2\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 5b79c007a9b437ef1ddedd3ca6f05f215c095324
     mergeA: 
     mergeB: 

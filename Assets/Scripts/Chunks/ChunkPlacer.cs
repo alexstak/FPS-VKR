@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using NavMeshBuilder = UnityEngine.AI.NavMeshBuilder;
 
 public class ChunkPlacer : MonoBehaviour
 {
@@ -34,7 +35,8 @@ public class ChunkPlacer : MonoBehaviour
         Chunk newChunk = Instantiate(chunkPrefabs[Random.Range(0, chunkPrefabs.Length)]);
         newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].end.position - newChunk.begin.localPosition/3.33f;
         spawnedChunks.Add(newChunk);
-        if (spawnedChunks.Count > 5)
+        SC_EnemySpawner.Instance.DeleteSpawnPoints(2);
+        if (spawnedChunks.Count > 3)
         {
             Destroy(spawnedChunks[0].gameObject);
             spawnedChunks.RemoveAt(0);
