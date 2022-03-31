@@ -13,9 +13,615 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-03-31T15:06:05.176+03:00
-  initializedAtString: 2022-03-31T14:06:14.415+03:00
+  lastUpdatedAtString: 2022-03-31T16:26:49.178+03:00
+  initializedAtString: 2022-03-31T16:22:46.084+03:00
   log:
+  - commitID: 5b79c007a9b437ef1ddedd3ca6f05f215c095324
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: some files
+    description: 
+    timeString: 2022-03-31T15:10:08.000+03:00
+    commitTimeString: 2022-03-31T15:10:08.000+03:00
+    changes:
+    - path: .vs\FPS-2\v16\.suo
+      fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
+      projectPath: .vs\FPS-2\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\user\FPS-2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\00\00b672ce09c0ec14a0e9408db8d9e231
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\00\00b672ce09c0ec14a0e9408db8d9e231
+      projectPath: Library\Artifacts\00\00b672ce09c0ec14a0e9408db8d9e231
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\00\00e6a02414c30301b8edd535e45b4bbd
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\00\00e6a02414c30301b8edd535e45b4bbd
+      projectPath: Library\Artifacts\00\00e6a02414c30301b8edd535e45b4bbd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\01\0143614eea517ac6096b77d06050b6e0
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\01\0143614eea517ac6096b77d06050b6e0
+      projectPath: Library\Artifacts\01\0143614eea517ac6096b77d06050b6e0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\12\12adf0b800f7566402887339d6794db4
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\12\12adf0b800f7566402887339d6794db4
+      projectPath: Library\Artifacts\12\12adf0b800f7566402887339d6794db4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      projectPath: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\25\254d0e8331103752947ac46c37a5689d
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\25\254d0e8331103752947ac46c37a5689d
+      projectPath: Library\Artifacts\25\254d0e8331103752947ac46c37a5689d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\28\28bb81c21e2a5af27410d7cab767c33c
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\28\28bb81c21e2a5af27410d7cab767c33c
+      projectPath: Library\Artifacts\28\28bb81c21e2a5af27410d7cab767c33c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\2a\2ac5ddffff73c1f55a62ba312bd56aa7
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\2a\2ac5ddffff73c1f55a62ba312bd56aa7
+      projectPath: Library\Artifacts\2a\2ac5ddffff73c1f55a62ba312bd56aa7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\30\30fe2abf51487ef973ff10b0e408cb1c
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\30\30fe2abf51487ef973ff10b0e408cb1c
+      projectPath: Library\Artifacts\30\30fe2abf51487ef973ff10b0e408cb1c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\3c\3c8ccc077b8fa49c682862167345f915
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\3c\3c8ccc077b8fa49c682862167345f915
+      projectPath: Library\Artifacts\3c\3c8ccc077b8fa49c682862167345f915
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\48\4869f3148e12dccd7d77960a2cc493bf
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\48\4869f3148e12dccd7d77960a2cc493bf
+      projectPath: Library\Artifacts\48\4869f3148e12dccd7d77960a2cc493bf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4a\4ac1a98814771d2567fef76dddedbbe6
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\4a\4ac1a98814771d2567fef76dddedbbe6
+      projectPath: Library\Artifacts\4a\4ac1a98814771d2567fef76dddedbbe6
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4b\4bcc0df86279065f567c5fa876af2b5b
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\4b\4bcc0df86279065f567c5fa876af2b5b
+      projectPath: Library\Artifacts\4b\4bcc0df86279065f567c5fa876af2b5b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\4b\4bff67cb2f26d4210fc6bbfa81f903f4
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\4b\4bff67cb2f26d4210fc6bbfa81f903f4
+      projectPath: Library\Artifacts\4b\4bff67cb2f26d4210fc6bbfa81f903f4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\51\51e4d94129fa217ec22a03fb3af5127a
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\51\51e4d94129fa217ec22a03fb3af5127a
+      projectPath: Library\Artifacts\51\51e4d94129fa217ec22a03fb3af5127a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\57\57491994d10ed9c0d865123a6300fd7f
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\57\57491994d10ed9c0d865123a6300fd7f
+      projectPath: Library\Artifacts\57\57491994d10ed9c0d865123a6300fd7f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\57\57db6fcb53899413bc44ec7ac1e63721
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\57\57db6fcb53899413bc44ec7ac1e63721
+      projectPath: Library\Artifacts\57\57db6fcb53899413bc44ec7ac1e63721
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5a\5ae07c0ffaed83dd3f58c89caedfafcd
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\5a\5ae07c0ffaed83dd3f58c89caedfafcd
+      projectPath: Library\Artifacts\5a\5ae07c0ffaed83dd3f58c89caedfafcd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\5c\5c3c8558808c2d2b78fa4880cb342e38
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\5c\5c3c8558808c2d2b78fa4880cb342e38
+      projectPath: Library\Artifacts\5c\5c3c8558808c2d2b78fa4880cb342e38
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\61\61850593ac2bb7636572277b66d60073
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\61\61850593ac2bb7636572277b66d60073
+      projectPath: Library\Artifacts\61\61850593ac2bb7636572277b66d60073
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\65\65656d7a51539e925e31946110cb298d
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\65\65656d7a51539e925e31946110cb298d
+      projectPath: Library\Artifacts\65\65656d7a51539e925e31946110cb298d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\66\668194cac854d5091710ee71c3bc151d
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\66\668194cac854d5091710ee71c3bc151d
+      projectPath: Library\Artifacts\66\668194cac854d5091710ee71c3bc151d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\67\677fd9de5b8ecc12c44e404a258887ad
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\67\677fd9de5b8ecc12c44e404a258887ad
+      projectPath: Library\Artifacts\67\677fd9de5b8ecc12c44e404a258887ad
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\6b\6b9dab802ab979a0f29247f431d9b038
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\6b\6b9dab802ab979a0f29247f431d9b038
+      projectPath: Library\Artifacts\6b\6b9dab802ab979a0f29247f431d9b038
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\73\73ee551d854e2872afe911c7907bc241
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\73\73ee551d854e2872afe911c7907bc241
+      projectPath: Library\Artifacts\73\73ee551d854e2872afe911c7907bc241
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\77\77db4205855c0cd63f8b50cb01f59073
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\77\77db4205855c0cd63f8b50cb01f59073
+      projectPath: Library\Artifacts\77\77db4205855c0cd63f8b50cb01f59073
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\79\79445320f4b64767bdf4d1a9cda2341a
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\79\79445320f4b64767bdf4d1a9cda2341a
+      projectPath: Library\Artifacts\79\79445320f4b64767bdf4d1a9cda2341a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\85\85c15aaaa77e8fe47316e2e2e5b11466
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\85\85c15aaaa77e8fe47316e2e2e5b11466
+      projectPath: Library\Artifacts\85\85c15aaaa77e8fe47316e2e2e5b11466
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\8a\8a93256ded44914475a99b0aed40e6ec
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\8a\8a93256ded44914475a99b0aed40e6ec
+      projectPath: Library\Artifacts\8a\8a93256ded44914475a99b0aed40e6ec
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\8b\8bbf18391c71f8973af7979ea5707a4e
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\8b\8bbf18391c71f8973af7979ea5707a4e
+      projectPath: Library\Artifacts\8b\8bbf18391c71f8973af7979ea5707a4e
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\8c\8cb41969d743af1d4e1e349eb28578bd
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\8c\8cb41969d743af1d4e1e349eb28578bd
+      projectPath: Library\Artifacts\8c\8cb41969d743af1d4e1e349eb28578bd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\8d\8d4362c68644eb58593889314a062ee7
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\8d\8d4362c68644eb58593889314a062ee7
+      projectPath: Library\Artifacts\8d\8d4362c68644eb58593889314a062ee7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\95\952ca24d765ccbb502725560bb222d26
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\95\952ca24d765ccbb502725560bb222d26
+      projectPath: Library\Artifacts\95\952ca24d765ccbb502725560bb222d26
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\95\9560fb159dc6a7094a11bed27f3d6200
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\95\9560fb159dc6a7094a11bed27f3d6200
+      projectPath: Library\Artifacts\95\9560fb159dc6a7094a11bed27f3d6200
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\99\99fcbe25459031ec8c64a42d4af95079
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\99\99fcbe25459031ec8c64a42d4af95079
+      projectPath: Library\Artifacts\99\99fcbe25459031ec8c64a42d4af95079
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\9c\9c684bc6ac986143e0383f9585236ece
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\9c\9c684bc6ac986143e0383f9585236ece
+      projectPath: Library\Artifacts\9c\9c684bc6ac986143e0383f9585236ece
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\a5\a5120db1f341d6cee764190346ec6c26
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\a5\a5120db1f341d6cee764190346ec6c26
+      projectPath: Library\Artifacts\a5\a5120db1f341d6cee764190346ec6c26
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\a7\a79e297044344914d0f1889957120620
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\a7\a79e297044344914d0f1889957120620
+      projectPath: Library\Artifacts\a7\a79e297044344914d0f1889957120620
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b2\b294fc4cadbac1f501289a32f777752b
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\b2\b294fc4cadbac1f501289a32f777752b
+      projectPath: Library\Artifacts\b2\b294fc4cadbac1f501289a32f777752b
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b4\b40207ddff98e9c1b239a90e5f91527d
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\b4\b40207ddff98e9c1b239a90e5f91527d
+      projectPath: Library\Artifacts\b4\b40207ddff98e9c1b239a90e5f91527d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b5\b5f80aeef876a1d5a06e467d2da2afe9
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\b5\b5f80aeef876a1d5a06e467d2da2afe9
+      projectPath: Library\Artifacts\b5\b5f80aeef876a1d5a06e467d2da2afe9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\b9\b9b09d4671a79807687f9d4bd42d7893
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\b9\b9b09d4671a79807687f9d4bd42d7893
+      projectPath: Library\Artifacts\b9\b9b09d4671a79807687f9d4bd42d7893
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      projectPath: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\be\be0b4558434c416b4e203088c11b5977
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\be\be0b4558434c416b4e203088c11b5977
+      projectPath: Library\Artifacts\be\be0b4558434c416b4e203088c11b5977
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c2\c2cc88b0c6b377dcaaab9c2ca8df34f8
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\c2\c2cc88b0c6b377dcaaab9c2ca8df34f8
+      projectPath: Library\Artifacts\c2\c2cc88b0c6b377dcaaab9c2ca8df34f8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c3\c30bdac1d6e630ef318e854f0b123e3a
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\c3\c30bdac1d6e630ef318e854f0b123e3a
+      projectPath: Library\Artifacts\c3\c30bdac1d6e630ef318e854f0b123e3a
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c5\c56649ab435d54df4550d7a68d4599c4
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\c5\c56649ab435d54df4550d7a68d4599c4
+      projectPath: Library\Artifacts\c5\c56649ab435d54df4550d7a68d4599c4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\c9\c90fbff5a3259fc7129c5779efbc5c26
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\c9\c90fbff5a3259fc7129c5779efbc5c26
+      projectPath: Library\Artifacts\c9\c90fbff5a3259fc7129c5779efbc5c26
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d0\d0267904877d4a841289c0dbfc776a1d
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\d0\d0267904877d4a841289c0dbfc776a1d
+      projectPath: Library\Artifacts\d0\d0267904877d4a841289c0dbfc776a1d
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\d9\d9b5d5344736cd00e1d8a4cf94201892
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\d9\d9b5d5344736cd00e1d8a4cf94201892
+      projectPath: Library\Artifacts\d9\d9b5d5344736cd00e1d8a4cf94201892
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\de\def2ffb7fcc33cbb6c0f88f40d50ba28
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\de\def2ffb7fcc33cbb6c0f88f40d50ba28
+      projectPath: Library\Artifacts\de\def2ffb7fcc33cbb6c0f88f40d50ba28
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\Artifacts\f4\f4dd784c12e2eea76e311b6494a29b0f
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\f4\f4dd784c12e2eea76e311b6494a29b0f
+      projectPath: Library\Artifacts\f4\f4dd784c12e2eea76e311b6494a29b0f
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\user\FPS-2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\user\FPS-2\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0.log
+      fullPath: C:\Users\user\FPS-2\Logs\AssetImportWorker0.log
+      projectPath: Logs\AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-AssetImportWorker0.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-AssetImportWorker0.log
+      projectPath: Logs\shadercompiler-AssetImportWorker0.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe12.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe13.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe14.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe14.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe14.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe15.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2012b9192026c5d8a79b769061c458783bc423e2
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: Update .gitignore
+    description: 
+    timeString: 2022-03-31T15:09:50.000+03:00
+    commitTimeString: 2022-03-31T15:09:50.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\user\FPS-2\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 017d876819011192fb82a08298a601e5963353c2
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: Create .gitignore
+    description: 
+    timeString: 2022-03-31T15:07:44.000+03:00
+    commitTimeString: 2022-03-31T15:07:44.000+03:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\user\FPS-2\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: eca5a5b74c0141712a5ad39dee47235dcf721685
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: shopController
+    description: 
+    timeString: 2022-03-31T15:06:47.000+03:00
+    commitTimeString: 2022-03-31T15:06:47.000+03:00
+    changes:
+    - path: Assets\Scripts\Enemy\SC_DamageReceiver.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Enemy\SC_DamageReceiver.cs
+      projectPath: Assets\Scripts\Enemy\SC_DamageReceiver.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Items\ShopController.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Items\ShopController.cs
+      projectPath: Assets\Scripts\Items\ShopController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponController\SC_Weapon.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\WeaponController\SC_Weapon.cs
+      projectPath: Assets\Scripts\WeaponController\SC_Weapon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponController\SC_WeaponManager.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\WeaponController\SC_WeaponManager.cs
+      projectPath: Assets\Scripts\WeaponController\SC_WeaponManager.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\4f\4f07595e61ec88575f2cbf2f5f446cb5
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\4f\4f07595e61ec88575f2cbf2f5f446cb5
+      projectPath: Library\Artifacts\4f\4f07595e61ec88575f2cbf2f5f446cb5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Temp\UnityTempFile-7cec11317aecf4544a2111a7058b5ebb
+      fullPath: C:\Users\user\FPS-2\Temp\UnityTempFile-7cec11317aecf4544a2111a7058b5ebb
+      projectPath: Temp\UnityTempFile-7cec11317aecf4544a2111a7058b5ebb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 390ce491392b0d2b35a3dbbaab42d51974eddca7
     mergeA: 
     mergeB: 

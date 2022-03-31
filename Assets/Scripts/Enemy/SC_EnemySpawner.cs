@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,6 +19,20 @@ public class SC_EnemySpawner : MonoBehaviour
     //How many enemies we already eliminated in the current wave
     int enemiesEliminated = 0;
     int totalEnemiesSpawned = 0;
+    public static SC_EnemySpawner Instance { get; private set; }
+
+    private List<Transform> spawnPointsList = new List<Transform>();
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    public void addSpawnPoint(Transform spawnPoint)
+    {
+        spawnPointsList.Add(spawnPoint);
+        print(spawnPointsList.Count);
+    }
 
     // Start is called before the first frame update
     void Start()

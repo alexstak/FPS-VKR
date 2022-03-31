@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Player\SC_CharacterController.cs" />
     <Compile Include="Assets\Scripts\Items\AmmoBag.cs" />
     <Compile Include="Assets\Scripts\Chunks\Chunk.cs" />
+    <Compile Include="Assets\Scripts\Spawnoint_script.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
