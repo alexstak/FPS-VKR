@@ -13,9 +13,165 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-04-01T16:30:18.318+03:00
+  lastUpdatedAtString: 2022-04-01T18:36:41.682+03:00
   initializedAtString: 2022-04-01T16:00:57.103+03:00
   log:
+  - commitID: 89a7bde0a7e3934d22a437c3dff4f7706047658a
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: SettingsScreen
+    description: 
+    timeString: 2022-04-01T16:30:41.000+03:00
+    commitTimeString: 2022-04-01T16:30:41.000+03:00
+    changes:
+    - path: .vs\FPS-2\v16\.suo
+      fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
+      projectPath: .vs\FPS-2\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\user\FPS-2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MenuScreen.unity
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\MenuScreen.unity
+      projectPath: Assets\Scenes\MenuScreen.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\LightingData.asset
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene\LightingData.asset
+      projectPath: Assets\Scenes\SampleScene\LightingData.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\LightingData.asset.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene\LightingData.asset.meta
+      projectPath: Assets\Scenes\SampleScene\LightingData.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-0.exr
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene\ReflectionProbe-0.exr
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-0.exr
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene\ReflectionProbe-0.exr.meta
+      projectPath: Assets\Scenes\SampleScene\ReflectionProbe-0.exr.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\GameSettings.mixer
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\GameSettings.mixer
+      projectPath: Assets\Scripts\MenuScene\GameSettings.mixer
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\GameSettings.mixer.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\GameSettings.mixer.meta
+      projectPath: Assets\Scripts\MenuScene\GameSettings.mixer.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\Settings.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\Settings.cs
+      projectPath: Assets\Scripts\MenuScene\Settings.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\Settings.cs.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\Settings.cs.meta
+      projectPath: Assets\Scripts\MenuScene\Settings.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponController\SC_Weapon.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\WeaponController\SC_Weapon.cs
+      projectPath: Assets\Scripts\WeaponController\SC_Weapon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\user\FPS-2\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\user\FPS-2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\user\FPS-2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: efff23204f995490d3883bed7afc01c720c8f734
     mergeA: 
     mergeB: 

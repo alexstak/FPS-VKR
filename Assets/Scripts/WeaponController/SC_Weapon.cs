@@ -59,7 +59,7 @@ public class SC_Weapon : MonoBehaviour
 
     void Fire()
     {
-        if (canFire)
+        if (canFire && !SC_DamageReceiver.Instance.IsOnPause())
         {
             if (Time.time > nextFireTime)
             {

@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs" />
     <Compile Include="Assets\Scripts\Chunks\Chunk.cs" />
     <Compile Include="Assets\Scripts\MenuScene\Settings.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

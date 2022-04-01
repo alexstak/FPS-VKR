@@ -16,4 +16,10 @@ public class MenuControls : MonoBehaviour
         Debug.Log("Exit pressed!");
         Application.Quit();
     }
+
+
+    public void ContinueGame()
+    {
+        Pause.Instance.ContinueGame();
+    }
 }
