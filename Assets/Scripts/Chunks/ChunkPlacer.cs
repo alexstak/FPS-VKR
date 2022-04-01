@@ -11,6 +11,8 @@ public class ChunkPlacer : MonoBehaviour
 
     private List<Chunk> spawnedChunks = new List<Chunk>();
 
+    private int shopChunkPerChunks = 0; 
+
     void Start()
     {
         spawnedChunks.Add(firstChunk);
@@ -32,10 +34,21 @@ public class ChunkPlacer : MonoBehaviour
 
     private void SpawnChunk()
     {
-        Chunk newChunk = Instantiate(chunkPrefabs[Random.Range(0, chunkPrefabs.Length)]);
-        newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].end.position - newChunk.begin.localPosition/3.33f;
-        spawnedChunks.Add(newChunk);
-        SC_EnemySpawner.Instance.DeleteSpawnPoints(2);
+        if (shopChunkPerChunks == 5)
+        {
+            shopChunkPerChunks = 0;
+            Chunk newChunk = Instantiate(chunkPrefabs[0]);
+            newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].end.position - newChunk.begin.localPosition / 3.33f;
+            spawnedChunks.Add(newChunk);
+        }
+        else
+        {
+            Chunk newChunk = Instantiate(chunkPrefabs[Random.Range(1, chunkPrefabs.Length)]);
+            newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].end.position - newChunk.begin.localPosition / 3.33f;
+            spawnedChunks.Add(newChunk);
+            shopChunkPerChunks++;
+            SC_EnemySpawner.Instance.DeleteSpawnPoints(2);
+        }
         if (spawnedChunks.Count > 3)
         {
             Destroy(spawnedChunks[0].gameObject);

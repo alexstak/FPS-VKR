@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShopController : MonoBehaviour
 {
-    public SC_DamageReceiver player;
+    //public SC_DamageReceiver player;
 
     public float timer;
     public bool ispuse;
@@ -30,7 +30,8 @@ public class ShopController : MonoBehaviour
 
         }
 
-        if(Input.GetKeyDown(KeyCode.Q) && player.checkSlowMotion())
+
+        if(Input.GetKeyDown(KeyCode.Q) && SC_DamageReceiver.Instance.checkSlowMotion())
         {
             StartCoroutine(SlowMotionMode());
         }
@@ -40,7 +41,7 @@ public class ShopController : MonoBehaviour
     {
         if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F) && ispuse == false)
         {
-            player.SetOnPause(true);
+            SC_DamageReceiver.Instance.SetOnPause(true);
             ispuse = true;
         }
     }
@@ -49,7 +50,7 @@ public class ShopController : MonoBehaviour
     {
         if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F) && ispuse == false)
         {
-            player.SetOnPause(true);
+            SC_DamageReceiver.Instance.SetOnPause(true);
             ispuse = true;
         }
     }
@@ -65,37 +66,37 @@ public class ShopController : MonoBehaviour
                 ispuse = false;
                 timer = 0;
                 Cursor.visible = false;
-                player.SetOnPause(false);
+                SC_DamageReceiver.Instance.SetOnPause(false);
                 Cursor.lockState = CursorLockMode.Locked;
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 100f, deltaWidth + 150f, 45f), "Максимальный боезапас"))
             {
-                player.ApplyPoints(-100);
-                player.IncreaseBullets();
+                SC_DamageReceiver.Instance.ApplyPoints(-100);
+                SC_DamageReceiver.Instance.IncreaseBullets();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 50f, deltaWidth + 150f, 45f), "Максимальное здоровье"))
             {
-                player.ApplyPoints(-100);
-                player.IncreaseHP();
+                SC_DamageReceiver.Instance.ApplyPoints(-100);
+                SC_DamageReceiver.Instance.IncreaseHP();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) - 0f, deltaWidth + 150f, 45f), "Замедление времени"))
             {
-                player.UnlockSlowMotion();
+                SC_DamageReceiver.Instance.UnlockSlowMotion();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) + 50f, deltaWidth + 150f, 45f), "Второе оружие"))
             {
-                player.ApplyPoints(-200);
-                player.UnlockSecondaryWeapon();
+                SC_DamageReceiver.Instance.ApplyPoints(-200);
+                SC_DamageReceiver.Instance.UnlockSecondaryWeapon();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) + 100f, deltaWidth + 150f, 45f), "Пополнить боезапас"))
             {
-                player.ApplyPoints(-20);
-                player.SetBullets();
+                SC_DamageReceiver.Instance.ApplyPoints(-20);
+                SC_DamageReceiver.Instance.SetBullets();
             }
             if (GUI.Button(new Rect((float)(Screen.width / 2), (float)(Screen.height / 2) + 150f, deltaWidth + 150f, 45f), "Пополнить здоровье"))
             {
-                player.ApplyPoints(-20);
-                player.RestoreHealth();
+                SC_DamageReceiver.Instance.ApplyPoints(-20);
+                SC_DamageReceiver.Instance.RestoreHealth();
             }
         }
     }

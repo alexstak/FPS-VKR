@@ -6,7 +6,6 @@ public class Bottle : MonoBehaviour
 {
     public int hpHeal = 50;
     public GameObject model;
-    public SC_DamageReceiver player;
     public AudioClip healPlayer;
 
     AudioSource audioSource;
@@ -31,7 +30,7 @@ public class Bottle : MonoBehaviour
 
     IEnumerator DestroyBottle()
     {
-        player.ApplyHeal(hpHeal);
+        SC_DamageReceiver.Instance.ApplyHeal(hpHeal);
         audioSource.clip = healPlayer;
         audioSource.Play();       
         yield return new WaitForSeconds(1.5f);

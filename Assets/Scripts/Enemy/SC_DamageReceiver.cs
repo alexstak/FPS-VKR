@@ -12,6 +12,13 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     private bool isSlowMotionUnlocked = false;
     private int hpTotalDeafault = 100;
 
+    public static SC_DamageReceiver Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public int GetHpDefault()
     {
         return hpTotalDeafault;

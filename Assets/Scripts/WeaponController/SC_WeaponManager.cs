@@ -11,6 +11,13 @@ public class SC_WeaponManager : MonoBehaviour
 
     private bool isSecondaryWeaponUnlocked = false;
 
+    public static SC_WeaponManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {

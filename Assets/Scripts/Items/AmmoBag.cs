@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class AmmoBag : MonoBehaviour
 {
-    public SC_Weapon[] weapons;
     public GameObject model;
-    public SC_DamageReceiver player;
     public AudioClip ammos;
 
     AudioSource audioSource;
@@ -33,10 +31,7 @@ public class AmmoBag : MonoBehaviour
         audioSource.clip = ammos;
         audioSource.Play();
 
-        foreach (SC_Weapon weapon in weapons)
-        {
-            weapon.SetBullets();
-        }
+        SC_WeaponManager.Instance.SetBullets();
 
         yield return new WaitForSeconds(1.5f);
         Destroy(model);

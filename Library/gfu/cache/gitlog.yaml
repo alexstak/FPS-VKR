@@ -13,9 +13,339 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-03-31T19:34:44.159+03:00
-  initializedAtString: 2022-03-31T17:40:24.486+03:00
+  lastUpdatedAtString: 2022-04-01T13:53:35.929+03:00
+  initializedAtString: 2022-04-01T12:52:44.164+03:00
   log:
+  - commitID: dd6f6cf137e9c48ad8acdba4389321226275565c
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: connection enemy controller and chunck placer
+    description: now enemies can move on generated chunks
+    timeString: 2022-03-31T19:46:11.000+03:00
+    commitTimeString: 2022-03-31T19:46:11.000+03:00
+    changes:
+    - path: .vs\FPS-2\v16\.suo
+      fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
+      projectPath: .vs\FPS-2\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\user\FPS-2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Chunk1.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk1.prefab
+      projectPath: Assets\Prefabs\Chunk1.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Chunk2.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk2.prefab
+      projectPath: Assets\Prefabs\Chunk2.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Shop.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Shop.prefab
+      projectPath: Assets\Prefabs\Shop.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\SceneChunk1.meta
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk1.meta
+      projectPath: Assets\SceneChunk1.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk1.unity
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk1.unity
+      projectPath: Assets\SceneChunk1.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk1.unity.meta
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk1.unity.meta
+      projectPath: Assets\SceneChunk1.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk1\NavMesh1.asset
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk1\NavMesh1.asset
+      projectPath: Assets\SceneChunk1\NavMesh1.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk1\NavMesh1.asset.meta
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk1\NavMesh1.asset.meta
+      projectPath: Assets\SceneChunk1\NavMesh1.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk2.meta
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk2.meta
+      projectPath: Assets\SceneChunk2.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk2.unity
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk2.unity
+      projectPath: Assets\SceneChunk2.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk2.unity.meta
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk2.unity.meta
+      projectPath: Assets\SceneChunk2.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk2\NavMesh2.asset
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk2\NavMesh2.asset
+      projectPath: Assets\SceneChunk2\NavMesh2.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\SceneChunk2\NavMesh2.asset.meta
+      fullPath: C:\Users\user\FPS-2\Assets\SceneChunk2\NavMesh2.asset.meta
+      projectPath: Assets\SceneChunk2\NavMesh2.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Chunks\ChunkPlacer.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\ChunkPlacer.cs
+      projectPath: Assets\Scripts\Chunks\ChunkPlacer.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs
+      projectPath: Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs.meta
+      projectPath: Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Enemy\SC_EnemySpawner.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\Enemy\SC_EnemySpawner.cs
+      projectPath: Assets\Scripts\Enemy\SC_EnemySpawner.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\NavMesh.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\NavMesh.meta
+      projectPath: Assets\Scripts\NavMesh.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs
+      projectPath: Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs.meta
+      projectPath: Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\NavMesh\NavMeshSourceTag.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\NavMesh\NavMeshSourceTag.cs
+      projectPath: Assets\Scripts\NavMesh\NavMeshSourceTag.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\NavMesh\NavMeshSourceTag.cs.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\NavMesh\NavMeshSourceTag.cs.meta
+      projectPath: Assets\Scripts\NavMesh\NavMeshSourceTag.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\user\FPS-2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\user\FPS-2\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\user\FPS-2\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\user\FPS-2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\user\FPS-2\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\22\22836a6c27ccb577891a12716efe8fc7.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\22\22836a6c27ccb577891a12716efe8fc7.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\22\22836a6c27ccb577891a12716efe8fc7.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\3a\3aff6d4362d31d58e9c3c72aaf8e8a87.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\3a\3aff6d4362d31d58e9c3c72aaf8e8a87.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\3a\3aff6d4362d31d58e9c3c72aaf8e8a87.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\c0\c03b87800e6d66fa7fa52c065fa7e24b.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\c0\c03b87800e6d66fa7fa52c065fa7e24b.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\c0\c03b87800e6d66fa7fa52c065fa7e24b.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\7d\7d7897b1508a226cff3211993c5040ed.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\7d\7d7897b1508a226cff3211993c5040ed.json
+      projectPath: Library\StateCache\SceneView\7d\7d7897b1508a226cff3211993c5040ed.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+      projectPath: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\d8\d84181bcdfb956c65ea1f50ffb6c9d3d.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\d8\d84181bcdfb956c65ea1f50ffb6c9d3d.json
+      projectPath: Library\StateCache\SceneView\d8\d84181bcdfb956c65ea1f50ffb6c9d3d.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
+      projectPath: Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\AssetImportWorker0-prev.log
+      fullPath: C:\Users\user\FPS-2\Logs\AssetImportWorker0-prev.log
+      projectPath: Logs\AssetImportWorker0-prev.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: ProjectSettings\SceneTemplateSettings.json
+      fullPath: C:\Users\user\FPS-2\ProjectSettings\SceneTemplateSettings.json
+      projectPath: ProjectSettings\SceneTemplateSettings.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\user\FPS-2\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\user\FPS-2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 89595b3734072ae79d12265aa71ffed6b5119d88
     mergeA: 
     mergeB: 
