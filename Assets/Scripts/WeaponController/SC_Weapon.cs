@@ -23,7 +23,7 @@ public class SC_Weapon : MonoBehaviour
     float nextFireTime = 0;
     bool canFire = true;
     int bulletsPerMagazineDefault = 0;
-    int bulletsTotalDefault = 0;
+    int bulletsTotalDefault = 150;
     AudioSource audioSource;
 
     // Start is called before the first frame update
