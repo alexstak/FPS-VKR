@@ -9,6 +9,7 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     public SC_WeaponManager weaponManager;
 
     private bool onPause = false;
+    private bool onPauseEsc = false;
     private bool isSlowMotionUnlocked = false;
     private int hpTotalDeafault = 100;
 
@@ -61,10 +62,18 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     {
         return onPause;
     }
+    public bool IsOnPauseEsc()
+    {
+        return onPauseEsc;
+    }
 
     public void SetOnPause(bool mode)
     {
         onPause = mode;
+    }
+    public void SetOnPauseEsc(bool mode)
+    {
+        onPauseEsc = mode;
     }
 
     public void SetBullets()

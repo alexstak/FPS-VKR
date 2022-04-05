@@ -17,13 +17,13 @@ public class ShopController : MonoBehaviour
     void Update()
     {
         Time.timeScale = timer;
-        if (ispuse == true && !isSlowMotion)
+        if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && ispuse == true && !isSlowMotion)
         {
             timer = 0;
             guipuse = true;
 
         }
-        else if (ispuse == false && !isSlowMotion)
+        else if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && ispuse == false && !isSlowMotion)
         {
             timer = 1f;
             guipuse = false;
@@ -39,7 +39,7 @@ public class ShopController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F) && ispuse == false)
+        if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && other.tag == "Player" && Input.GetKeyDown(KeyCode.F) && ispuse == false)
         {
             SC_DamageReceiver.Instance.SetOnPause(true);
             ispuse = true;

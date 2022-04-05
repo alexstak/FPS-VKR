@@ -30,7 +30,8 @@ public class Pause : MonoBehaviour
                 Cursor.visible = true;// включаем отображение курсора
                 Cursor.lockState = CursorLockMode.None;
                 SC_DamageReceiver.Instance.SetOnPause(true);
-            }
+                SC_DamageReceiver.Instance.SetOnPauseEsc(true);
+        }
             else if (Input.GetKeyDown(KeyCode.Escape) && ispuse == true)
             {
                 ispuse = false;
@@ -38,6 +39,7 @@ public class Pause : MonoBehaviour
                 settings.SetActive(false);
                 Cursor.visible = false;
                 SC_DamageReceiver.Instance.SetOnPause(false);
+                SC_DamageReceiver.Instance.SetOnPauseEsc(false);
                 Cursor.lockState = CursorLockMode.Locked;
             }
             if (ispuse == true)
