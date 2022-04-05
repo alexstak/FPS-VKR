@@ -13,9 +13,273 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-04-01T18:36:41.682+03:00
-  initializedAtString: 2022-04-01T16:00:57.103+03:00
+  lastUpdatedAtString: 2022-04-05T16:09:11.043+03:00
+  initializedAtString: 2022-04-05T12:27:09.349+03:00
   log:
+  - commitID: 12b563fe2c81209d743e14eca8a8558203ff7eda
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: pause menu
+    description: 
+    timeString: 2022-04-01T19:55:45.000+03:00
+    commitTimeString: 2022-04-01T19:55:45.000+03:00
+    changes:
+    - path: .vs\FPS-2\v16\.suo
+      fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
+      projectPath: .vs\FPS-2\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\Users\user\FPS-2\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu.meta
+      projectPath: Assets\Prefabs\Menu.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\EventSystem.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\EventSystem.prefab
+      projectPath: Assets\Prefabs\Menu\EventSystem.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\EventSystem.prefab.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\EventSystem.prefab.meta
+      projectPath: Assets\Prefabs\Menu\EventSystem.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\MainMenu.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu.prefab
+      projectPath: Assets\Prefabs\Menu\MainMenu.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\MainMenu.prefab.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu.prefab.meta
+      projectPath: Assets\Prefabs\Menu\MainMenu.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\MainMenu2.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu2.prefab
+      projectPath: Assets\Prefabs\Menu\MainMenu2.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\MainMenu2.prefab.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu2.prefab.meta
+      projectPath: Assets\Prefabs\Menu\MainMenu2.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\Settings.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\Settings.prefab
+      projectPath: Assets\Prefabs\Menu\Settings.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Menu\Settings.prefab.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\Settings.prefab.meta
+      projectPath: Assets\Prefabs\Menu\Settings.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\MenuScreen.unity
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\MenuScreen.unity
+      projectPath: Assets\Scenes\MenuScreen.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\MenuControls.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\MenuControls.cs
+      projectPath: Assets\Scripts\MenuScene\MenuControls.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\Pause.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\Pause.cs
+      projectPath: Assets\Scripts\MenuScene\Pause.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MenuScene\Pause.cs.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\Pause.cs.meta
+      projectPath: Assets\Scripts\MenuScene\Pause.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\MouseLook.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\MouseLook.cs
+      projectPath: Assets\Scripts\MouseLook.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponController\SC_Weapon.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\WeaponController\SC_Weapon.cs
+      projectPath: Assets\Scripts\WeaponController\SC_Weapon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\user\FPS-2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Artifacts\14\145297af15d184d10c78a9d79f7a96d4
+      fullPath: C:\Users\user\FPS-2\Library\Artifacts\14\145297af15d184d10c78a9d79f7a96d4
+      projectPath: Library\Artifacts\14\145297af15d184d10c78a9d79f7a96d4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\user\FPS-2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ShaderCache\7\7ed0a608606c383e615af99d3e75ca26.bin
+      fullPath: C:\Users\user\FPS-2\Library\ShaderCache\7\7ed0a608606c383e615af99d3e75ca26.bin
+      projectPath: Library\ShaderCache\7\7ed0a608606c383e615af99d3e75ca26.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\user\FPS-2\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\b\bf737aea3ebe88b3f8cc5d5ec6f72205.bin
+      fullPath: C:\Users\user\FPS-2\Library\ShaderCache\b\bf737aea3ebe88b3f8cc5d5ec6f72205.bin
+      projectPath: Library\ShaderCache\b\bf737aea3ebe88b3f8cc5d5ec6f72205.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\42\428fa4f7312fb110370bb36a81eee996.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\42\428fa4f7312fb110370bb36a81eee996.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\42\428fa4f7312fb110370bb36a81eee996.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\50\505d91d07baeb4a2fd3930e4374b0fec.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\50\505d91d07baeb4a2fd3930e4374b0fec.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\50\505d91d07baeb4a2fd3930e4374b0fec.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\38\38a56a0ec1f8882567456f68b85dd34c.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\38\38a56a0ec1f8882567456f68b85dd34c.json
+      projectPath: Library\StateCache\SceneView\38\38a56a0ec1f8882567456f68b85dd34c.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\user\FPS-2\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\user\FPS-2\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: C:\Users\user\FPS-2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 89a7bde0a7e3934d22a437c3dff4f7706047658a
     mergeA: 
     mergeB: 

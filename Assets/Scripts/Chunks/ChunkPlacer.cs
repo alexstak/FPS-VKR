@@ -10,12 +10,22 @@ public class ChunkPlacer : MonoBehaviour
     public Chunk firstChunk;
 
     private List<Chunk> spawnedChunks = new List<Chunk>();
+    private List<Chunk> spawnedChunksShop = new List<Chunk>();
 
-    private int shopChunkPerChunks = 0; 
+    private int shopChunkPerChunks = 0;
+
+    public static ChunkPlacer Instance { get; private set; }
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
         spawnedChunks.Add(firstChunk);
+        SC_EnemySpawner.Instance.SetNextChunk(true);
     }
 
     
@@ -34,12 +44,13 @@ public class ChunkPlacer : MonoBehaviour
 
     private void SpawnChunk()
     {
-        if (shopChunkPerChunks == 5)
+        if (shopChunkPerChunks == 2)
         {
             shopChunkPerChunks = 0;
             Chunk newChunk = Instantiate(chunkPrefabs[0]);
             newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].end.position - newChunk.begin.localPosition / 3.33f;
             spawnedChunks.Add(newChunk);
+            SC_EnemySpawner.Instance.SetNextChunk(true);
         }
         else
         {
@@ -47,12 +58,24 @@ public class ChunkPlacer : MonoBehaviour
             newChunk.transform.position = spawnedChunks[spawnedChunks.Count - 1].end.position - newChunk.begin.localPosition / 3.33f;
             spawnedChunks.Add(newChunk);
             shopChunkPerChunks++;
-            SC_EnemySpawner.Instance.DeleteSpawnPoints(2);
+            SC_EnemySpawner.Instance.SetNextChunk(true);
         }
         if (spawnedChunks.Count > 3)
         {
             Destroy(spawnedChunks[0].gameObject);
             spawnedChunks.RemoveAt(0);
+        }
+    }
+
+    public void OpenDoor()
+    {
+        if (!spawnedChunks[0].checkDoor())
+        {
+            spawnedChunks[0].OpenDoor();
+        }
+        else if(!spawnedChunks[1].checkDoor())
+        {
+            spawnedChunks[1].OpenDoor();
         }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SC_EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public SC_DamageReceiver player;
+    public SC_DamageReceiver player;  
     public Texture crosshairTexture;
     public float spawnInterval = 2; //Spawn new enemy each n seconds
     public int enemiesPerWave = 5; //How many enemies per wave
@@ -21,6 +21,7 @@ public class SC_EnemySpawner : MonoBehaviour
     int totalEnemiesSpawned = 0;
 
     private bool nextChunk = false;
+    private bool spawnEnemies = true;
 
     public static SC_EnemySpawner Instance { get; private set; }
 
@@ -58,13 +59,19 @@ public class SC_EnemySpawner : MonoBehaviour
             {
                 newWaveTimer -= Time.deltaTime;
             }
-            else
+            else if(newWaveTimer <=0 &&  nextChunk)
             {
                 //Initialize new wave
-                enemiesToEliminate = waveNumber * enemiesPerWave;
+                enemiesToEliminate = waveNumber + enemiesPerWave;
                 enemiesEliminated = 0;
                 totalEnemiesSpawned = 0;
                 waitingForWave = false;
+                nextChunk = false;
+                spawnEnemies = true;
+            }
+            else
+            {
+                print("HERE");
             }
         }
         else
@@ -76,7 +83,7 @@ public class SC_EnemySpawner : MonoBehaviour
                 //Spawn enemy 
                 if (totalEnemiesSpawned < enemiesToEliminate)
                 {
-                    Transform randomPoint = spawnPointsList[Random.Range(0, 1)]; //spawnPointsList.Count - 1)];
+                    Transform randomPoint = spawnPointsList[Random.Range(0, 2)]; //spawnPointsList.Count - 1)];
 
                     GameObject enemy = Instantiate(enemyPrefab, randomPoint.position, Quaternion.identity);
                     SC_NPCEnemy npc = enemy.GetComponent<SC_NPCEnemy>();
@@ -125,12 +132,15 @@ public class SC_EnemySpawner : MonoBehaviour
         enemiesEliminated++;
         player.ApplyPoints(5);
 
-        if (enemiesToEliminate - enemiesEliminated <= 0)
+        if (enemiesToEliminate - enemiesEliminated <= 0 && spawnEnemies)
         {
             //Start next wave
             newWaveTimer = 10;
             waitingForWave = true;
             waveNumber++;
+            ChunkPlacer.Instance.OpenDoor();
+            DeleteSpawnPoints(2);
+            spawnEnemies = false;
         }
     }
 

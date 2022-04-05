@@ -17,7 +17,7 @@ public class MouseLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SC_DamageReceiver.Instance.IsOnPause())
+        if (!SC_DamageReceiver.Instance.IsOnPause())
         {
             float mouseX = Input.GetAxis("Mouse X") * mouseSensetivity * Time.deltaTime;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensetivity * Time.deltaTime;

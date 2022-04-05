@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-04-01T19:55:24.669+03:00
-  initializedAtString: 2022-04-01T19:46:43.536+03:00
+  lastUpdatedAtString: 2022-04-05T16:12:56.971+03:00
+  initializedAtString: 2022-04-05T12:27:06.770+03:00
   entries:
   - path: .vs\FPS-2\v16\.suo
     fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
@@ -22,105 +22,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Users\user\FPS-2\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets\Prefabs\Chunk1.prefab
+    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk1.prefab
+    projectPath: Assets\Prefabs\Chunk1.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Prefabs\Menu.meta
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu.meta
-    projectPath: Assets\Prefabs\Menu.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\EventSystem.prefab
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\EventSystem.prefab
-    projectPath: Assets\Prefabs\Menu\EventSystem.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\EventSystem.prefab.meta
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\EventSystem.prefab.meta
-    projectPath: Assets\Prefabs\Menu\EventSystem.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\MainMenu.prefab
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu.prefab
-    projectPath: Assets\Prefabs\Menu\MainMenu.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\MainMenu.prefab.meta
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu.prefab.meta
-    projectPath: Assets\Prefabs\Menu\MainMenu.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\MainMenu2.prefab
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu2.prefab
-    projectPath: Assets\Prefabs\Menu\MainMenu2.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\MainMenu2.prefab.meta
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\MainMenu2.prefab.meta
-    projectPath: Assets\Prefabs\Menu\MainMenu2.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\Settings.prefab
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\Settings.prefab
-    projectPath: Assets\Prefabs\Menu\Settings.prefab
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Prefabs\Menu\Settings.prefab.meta
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Menu\Settings.prefab.meta
-    projectPath: Assets\Prefabs\Menu\Settings.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\MenuScreen.unity
-    fullPath: C:\Users\user\FPS-2\Assets\Scenes\MenuScreen.unity
-    projectPath: Assets\Scenes\MenuScreen.unity
+  - path: Assets\Prefabs\Chunk2.prefab
+    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk2.prefab
+    projectPath: Assets\Prefabs\Chunk2.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
+  - path: Assets\Scripts\Chunks\Chunk.cs
+    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\Chunk.cs
+    projectPath: Assets\Scripts\Chunks\Chunk.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\MenuScene\MenuControls.cs
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\MenuControls.cs
-    projectPath: Assets\Scripts\MenuScene\MenuControls.cs
+  - path: Assets\Scripts\Chunks\ChunkPlacer.cs
+    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\ChunkPlacer.cs
+    projectPath: Assets\Scripts\Chunks\ChunkPlacer.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\MenuScene\Pause.cs
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\Pause.cs
-    projectPath: Assets\Scripts\MenuScene\Pause.cs
+  - path: Assets\Scripts\Enemy\SC_EnemySpawner.cs
+    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Enemy\SC_EnemySpawner.cs
+    projectPath: Assets\Scripts\Enemy\SC_EnemySpawner.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\MenuScene\Pause.cs.meta
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\MenuScene\Pause.cs.meta
-    projectPath: Assets\Scripts\MenuScene\Pause.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\Scripts\MouseLook.cs
     fullPath: C:\Users\user\FPS-2\Assets\Scripts\MouseLook.cs
     projectPath: Assets\Scripts\MouseLook.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\WeaponController\SC_Weapon.cs
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\WeaponController\SC_Weapon.cs
-    projectPath: Assets\Scripts\WeaponController\SC_Weapon.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -130,12 +64,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\14\145297af15d184d10c78a9d79f7a96d4
-    fullPath: C:\Users\user\FPS-2\Library\Artifacts\14\145297af15d184d10c78a9d79f7a96d4
-    projectPath: Library\Artifacts\14\145297af15d184d10c78a9d79f7a96d4
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\user\FPS-2\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -166,9 +100,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\user\FPS-2\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\user\FPS-2\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -194,26 +146,8 @@ MonoBehaviour:
     fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\BuiltinAssemblies.stamp
     projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\ShaderCache\7\7ed0a608606c383e615af99d3e75ca26.bin
-    fullPath: C:\Users\user\FPS-2\Library\ShaderCache\7\7ed0a608606c383e615af99d3e75ca26.bin
-    projectPath: Library\ShaderCache\7\7ed0a608606c383e615af99d3e75ca26.bin
-    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\ShaderCache\b\bf737aea3ebe88b3f8cc5d5ec6f72205.bin
-    fullPath: C:\Users\user\FPS-2\Library\ShaderCache\b\bf737aea3ebe88b3f8cc5d5ec6f72205.bin
-    projectPath: Library\ShaderCache\b\bf737aea3ebe88b3f8cc5d5ec6f72205.bin
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: C:\Users\user\FPS-2\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\SourceAssetDB
     fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -226,27 +160,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\42\428fa4f7312fb110370bb36a81eee996.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\42\428fa4f7312fb110370bb36a81eee996.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\42\428fa4f7312fb110370bb36a81eee996.json
+  - path: Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
+    fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\PrefabStageHierarchy\50\505d91d07baeb4a2fd3930e4374b0fec.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\50\505d91d07baeb4a2fd3930e4374b0fec.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\50\505d91d07baeb4a2fd3930e4374b0fec.json
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+    fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
+    projectPath: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\StateCache\SceneView\38\38a56a0ec1f8882567456f68b85dd34c.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\38\38a56a0ec1f8882567456f68b85dd34c.json
-    projectPath: Library\StateCache\SceneView\38\38a56a0ec1f8882567456f68b85dd34c.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
     fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
     projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
+    fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
+    projectPath: Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -286,6 +232,42 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
     fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe8.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
@@ -295,24 +277,6 @@ MonoBehaviour:
   - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
     fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe9.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\user\FPS-2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: ProjectSettings\QualitySettings.asset
-    fullPath: C:\Users\user\FPS-2\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\user\FPS-2\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

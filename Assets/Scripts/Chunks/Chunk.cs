@@ -6,6 +6,9 @@ public class Chunk : MonoBehaviour
 {
     public Transform begin;
     public Transform end;
+    public Transform door;
+
+    private bool isDoorOpened = false;
 
     void Start()
     {
@@ -17,4 +20,17 @@ public class Chunk : MonoBehaviour
     {
         
     }
+
+    public void OpenDoor()
+    {
+        Destroy(door.gameObject);
+        isDoorOpened = true;
+    }
+
+    public bool checkDoor()
+    {
+        return isDoorOpened;
+    }
 }
+
+
