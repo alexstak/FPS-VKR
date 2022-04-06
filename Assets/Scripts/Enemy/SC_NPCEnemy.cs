@@ -24,7 +24,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
     float nextAttackTime = 0;
     Rigidbody r;
 
-   public LineRenderer lineRenderer;
+    public LineRenderer lineRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -52,10 +52,10 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
                 lineRenderer.SetPosition(0, firePoint.position);
                 if (Physics.Raycast(firePoint.position, firePoint.forward, out hit, attackDistance))
                 {
-                    lineRenderer.SetPosition(1, hit.point);
                     if (hit.transform.CompareTag("Player"))
                     {
-                        
+                        lineRenderer.SetPosition(1, hit.point);
+
                         Debug.DrawLine(firePoint.position, firePoint.position + firePoint.forward * attackDistance, Color.cyan);
 
                         IEntity player = hit.transform.GetComponent<IEntity>();
@@ -64,7 +64,7 @@ public class SC_NPCEnemy : MonoBehaviour, IEntity
                 }
                 else
                 {
-                    lineRenderer.SetPosition(1, firePoint.position + firePoint.forward * attackDistance);
+                    //lineRenderer.SetPosition(1, firePoint.position + firePoint.forward * attackDistance);
                 }
             }
         }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2022-04-06T13:38:05.425+03:00
+  lastUpdatedAtString: 2022-04-06T14:24:25.324+03:00
   initializedAtString: 2022-04-06T12:40:45.362+03:00
   entries:
   - path: .vs\FPS-2\v16\.suo
@@ -22,63 +22,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Prefabs\Chunk1.prefab
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk1.prefab
-    projectPath: Assets\Prefabs\Chunk1.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Prefabs\Chunk2.prefab
-    fullPath: C:\Users\user\FPS-2\Assets\Prefabs\Chunk2.prefab
-    projectPath: Assets\Prefabs\Chunk2.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Chunks\Chunk.cs
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\Chunk.cs
-    projectPath: Assets\Scripts\Chunks\Chunk.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Chunks\ChunkPlacer.cs
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Chunks\ChunkPlacer.cs
-    projectPath: Assets\Scripts\Chunks\ChunkPlacer.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Items\ShopController.cs
-    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Items\ShopController.cs
-    projectPath: Assets\Scripts\Items\ShopController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ArtifactDB
-    fullPath: C:\Users\user\FPS-2\Library\ArtifactDB
-    projectPath: Library\ArtifactDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Artifacts\68\68979b389d8b51c59014ab37ca542606
-    fullPath: C:\Users\user\FPS-2\Library\Artifacts\68\68979b389d8b51c59014ab37ca542606
-    projectPath: Library\Artifacts\68\68979b389d8b51c59014ab37ca542606
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b841f7326db0fa202275e390f17835e8
-    fullPath: C:\Users\user\FPS-2\Library\Artifacts\b8\b841f7326db0fa202275e390f17835e8
-    projectPath: Library\Artifacts\b8\b841f7326db0fa202275e390f17835e8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\user\FPS-2\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
+  - path: Assets\Scripts\Enemy\SC_NPCEnemy.cs
+    fullPath: C:\Users\user\FPS-2\Assets\Scripts\Enemy\SC_NPCEnemy.cs
+    projectPath: Assets\Scripts\Enemy\SC_NPCEnemy.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -139,138 +85,6 @@ MonoBehaviour:
   - path: Library\SourceAssetDB
     fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
-    projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\41\41e9ce558beea64866c4c37a88a6060d.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\64\6427a1255acc517ca0b832cc566e39fa.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
-    projectPath: Library\StateCache\SceneView\82\82c5bc199d1de96414b5851c4bf35e64.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
-    projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
-    fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
-    projectPath: Library\StateCache\SceneView\dd\ddd503f000b52c1e59753f5ca07aab5a.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe10.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe11.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe12.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe12.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe12.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe13.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe13.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe13.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe14.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe14.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe14.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe15.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe15.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe15.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe8.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
-    fullPath: C:\Users\user\FPS-2\Logs\shadercompiler-UnityShaderCompiler.exe9.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
