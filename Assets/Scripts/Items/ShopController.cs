@@ -16,7 +16,10 @@ public class ShopController : MonoBehaviour
 
     void Update()
     {
-        Time.timeScale = timer;
+        if (!SC_DamageReceiver.Instance.IsOnPauseEsc())
+        {
+            Time.timeScale = timer;
+        }
         if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && ispuse == true && !isSlowMotion)
         {
             timer = 0;

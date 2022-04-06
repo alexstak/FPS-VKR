@@ -10,7 +10,6 @@ public class ChunkPlacer : MonoBehaviour
     public Chunk firstChunk;
 
     private List<Chunk> spawnedChunks = new List<Chunk>();
-    private List<Chunk> spawnedChunksShop = new List<Chunk>();
 
     private int shopChunkPerChunks = 0;
 
@@ -24,6 +23,7 @@ public class ChunkPlacer : MonoBehaviour
 
     void Start()
     {
+        firstChunk.setFirstChunk();
         spawnedChunks.Add(firstChunk);
         SC_EnemySpawner.Instance.SetNextChunk(true);
     }
@@ -64,6 +64,7 @@ public class ChunkPlacer : MonoBehaviour
         {
             Destroy(spawnedChunks[0].gameObject);
             spawnedChunks.RemoveAt(0);
+            spawnedChunks[0].CloseBackDoor();
         }
     }
 
