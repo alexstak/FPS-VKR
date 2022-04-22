@@ -16,6 +16,7 @@ public class SC_Weapon : MonoBehaviour
     public AudioClip fireAudio;
     public AudioClip reloadAudio;
     public ParticleSystem shotFlash;
+    public Transform bulletHole;
 
     [HideInInspector]
     public SC_WeaponManager manager;
@@ -73,6 +74,7 @@ public class SC_Weapon : MonoBehaviour
                     if (Physics.Raycast(manager.playerCamera.transform.position, manager.playerCamera.transform.forward, out hit, 100))
                     {
                         firePointPointerPosition = hit.point;
+                        StartCoroutine(makeBulletHole(hit));
                     }
                     firePoint.LookAt(firePointPointerPosition);
                     //Fire
@@ -124,6 +126,15 @@ public class SC_Weapon : MonoBehaviour
         }
 
         canFire = true;
+    }
+
+    IEnumerator makeBulletHole(RaycastHit hit)
+    {
+        Quaternion hitRotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
+        Transform hole = Instantiate(bulletHole, hit.point, hitRotation);
+        yield return new WaitForSeconds(5.0f);
+        Destroy(hole.gameObject);
+
     }
 
     //Called from SC_WeaponManager
