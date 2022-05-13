@@ -534,6 +534,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8799620113572571716, guid: cacf635ca4d70d84a9f47efe58164d58, type: 3}
+      propertyPath: m_Text
+      value: 'FPS: VKR'
+      objectReference: {fileID: 0}
     - target: {fileID: 8799620113572571719, guid: cacf635ca4d70d84a9f47efe58164d58, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

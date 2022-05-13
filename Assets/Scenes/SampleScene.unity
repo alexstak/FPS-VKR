@@ -331,6 +331,7 @@ MonoBehaviour:
   fireAudio: {fileID: 8300000, guid: 89b81ce697be48549a33ccf17f938068, type: 3}
   reloadAudio: {fileID: 8300000, guid: edc715134cc07b14897f30f4c08e3d88, type: 3}
   shotFlash: {fileID: 1572273169}
+  bulletHole: {fileID: 1488580510049008996, guid: 689352f28942521478cc98c99ec09fdf, type: 3}
   manager: {fileID: 0}
 --- !u!82 &216365357
 AudioSource:
@@ -789,6 +790,7 @@ MonoBehaviour:
   fireAudio: {fileID: 8300000, guid: a297cc2fb45fcc54baa4e9a6956f18e8, type: 3}
   reloadAudio: {fileID: 8300000, guid: 6972787f344fd1d4b85f8a7e7a646bf2, type: 3}
   shotFlash: {fileID: 772487437}
+  bulletHole: {fileID: 1488580510049008996, guid: 689352f28942521478cc98c99ec09fdf, type: 3}
   manager: {fileID: 0}
 --- !u!82 &619187436
 AudioSource:
@@ -1714,6 +1716,10 @@ PrefabInstance:
     - target: {fileID: 3073976924288725873, guid: 508dc2380ccb41b4daecbdb505e44f00, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073976924880638660, guid: 508dc2380ccb41b4daecbdb505e44f00, type: 3}
+      propertyPath: m_Text
+      value: 'FPS: VKR'
       objectReference: {fileID: 0}
     - target: {fileID: 3073976924880638663, guid: 508dc2380ccb41b4daecbdb505e44f00, type: 3}
       propertyPath: m_AnchorMax.y

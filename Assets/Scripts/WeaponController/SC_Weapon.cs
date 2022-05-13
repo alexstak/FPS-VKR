@@ -25,6 +25,7 @@ public class SC_Weapon : MonoBehaviour
     bool canFire = true;
     int bulletsPerMagazineDefault = 0;
     int bulletsTotalDefault = 150;
+    bool popadanie = false;
     AudioSource audioSource;
 
     // Start is called before the first frame update
@@ -74,7 +75,12 @@ public class SC_Weapon : MonoBehaviour
                     if (Physics.Raycast(manager.playerCamera.transform.position, manager.playerCamera.transform.forward, out hit, 100))
                     {
                         firePointPointerPosition = hit.point;
-                        StartCoroutine(makeBulletHole(hit));
+                        IEntity npc = hit.transform.GetComponent<IEntity>();
+                        if (npc == null)
+                        {
+                            //Apply damage to NPC
+                            StartCoroutine(makeBulletHole(hit));
+                        }
                     }
                     firePoint.LookAt(firePointPointerPosition);
                     //Fire
@@ -87,6 +93,11 @@ public class SC_Weapon : MonoBehaviour
                     audioSource.clip = fireAudio;
                     audioSource.Play();
                     shotFlash.Play();
+                    /*if(popadanie)
+                    {
+                        popadanie = false;
+                        StartCoroutine(makeBulletHole(hit));
+                    }*/
                 }
                 else
                 {
