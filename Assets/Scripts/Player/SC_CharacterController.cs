@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -10,6 +11,7 @@ public class SC_CharacterController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = 2.0f;
     public float lookXLimit = 45.0f;
+    public AudioClip [] stepAudio;
 
 
     public SC_DamageReceiver player;
@@ -22,12 +24,20 @@ public class SC_CharacterController : MonoBehaviour
     public bool canMove = true;
 
     private float doubleSpeed = 7.5f;
+    private float timeToStep = 0.5f;
+    private bool isStep = false;
+
+    AudioSource audioSource;
 
     void Start()
     {
         characterController = GetComponent<CharacterController>();
         rotation.y = transform.eulerAngles.y;
         doubleSpeed = speed * 2;
+        audioSource = GetComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        //Make sound 3D
+        audioSource.spatialBlend = 1f;
     }
 
     void Update()
@@ -47,6 +57,12 @@ public class SC_CharacterController : MonoBehaviour
                 {
                     moveDirection.y = jumpSpeed;
                 }
+
+                if((Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)) && !isStep)
+                {
+                    StartCoroutine(MakeStep());
+                }
+
             }
 
             // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
@@ -85,5 +101,16 @@ public class SC_CharacterController : MonoBehaviour
                 speed = 7.5f;
             }
         }
+    }
+
+    IEnumerator MakeStep()
+    {
+        isStep = true;
+        int randInd = Random.Range(0, stepAudio.Length);
+        audioSource.PlayOneShot(stepAudio[randInd]);
+
+        yield return new WaitForSeconds(timeToStep);
+
+        isStep = false;
     }
 }
