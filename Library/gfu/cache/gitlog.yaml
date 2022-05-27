@@ -13,9 +13,225 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2022-05-13T13:45:37.028+03:00
-  initializedAtString: 2022-05-13T13:45:37.028+03:00
+  lastUpdatedAtString: 2022-05-27T12:16:05.057+03:00
+  initializedAtString: 2022-05-27T12:16:05.057+03:00
   log:
+  - commitID: 1cae59a560b2676be52dad8252dc7ec4e2c7ebb6
+    mergeA: 
+    mergeB: 
+    authorName: alexstak
+    authorEmail: alex.stak@yandex.ru
+    commitEmail: alex.stak@yandex.ru
+    commitName: alexstak
+    summary: fix
+    description: 
+    timeString: 2022-05-13T13:53:56.000+03:00
+    commitTimeString: 2022-05-13T13:53:56.000+03:00
+    changes:
+    - path: .vs\FPS-2\v16\.suo
+      fullPath: C:\Users\user\FPS-2\.vs\FPS-2\v16\.suo
+      projectPath: .vs\FPS-2\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Easy FPS.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Easy FPS.meta
+      projectPath: Assets\Easy FPS.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Easy FPS\Documentation.odt
+      fullPath: C:\Users\user\FPS-2\Assets\Easy FPS\Documentation.odt
+      projectPath: Assets\Easy FPS\Documentation.odt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Easy FPS\Documentation.odt.meta
+      fullPath: C:\Users\user\FPS-2\Assets\Easy FPS\Documentation.odt.meta
+      projectPath: Assets\Easy FPS\Documentation.odt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\bulletHole.prefab
+      fullPath: C:\Users\user\FPS-2\Assets\Prefabs\bulletHole.prefab
+      projectPath: Assets\Prefabs\bulletHole.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\MenuScreen.unity
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\MenuScreen.unity
+      projectPath: Assets\Scenes\MenuScreen.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\user\FPS-2\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\WeaponController\SC_Weapon.cs
+      fullPath: C:\Users\user\FPS-2\Assets\Scripts\WeaponController\SC_Weapon.cs
+      projectPath: Assets\Scripts\WeaponController\SC_Weapon.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ArtifactDB
+      fullPath: C:\Users\user\FPS-2\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\user\FPS-2\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\user\FPS-2\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\Users\user\FPS-2\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\user\FPS-2\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\Users\user\FPS-2\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SourceAssetDB
+      fullPath: C:\Users\user\FPS-2\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\PrefabStageHierarchy\69\69b909bf0ffb583496ce6bcd46c4703f.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\PrefabStageHierarchy\69\69b909bf0ffb583496ce6bcd46c4703f.json
+      projectPath: Library\StateCache\PrefabStageHierarchy\69\69b909bf0ffb583496ce6bcd46c4703f.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      fullPath: C:\Users\user\FPS-2\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+      fullPath: C:\Users\user\FPS-2\Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+      projectPath: Library\UIElements\EditorWindows\UnityEditor.PackageManager.UI.PackageManagerWindow.pref
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\user\FPS-2\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: UIElementsSchema\UIElements.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\UIElements.xsd
+      projectPath: UIElementsSchema\UIElements.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
+      projectPath: UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
+      projectPath: UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
+      projectPath: UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\UnityEditor.PackageManager.UI.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\UnityEditor.PackageManager.UI.xsd
+      projectPath: UIElementsSchema\UnityEditor.PackageManager.UI.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+      projectPath: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\UnityEditor.UIElements.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\UnityEditor.UIElements.xsd
+      projectPath: UIElementsSchema\UnityEditor.UIElements.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UIElementsSchema\UnityEngine.UIElements.xsd
+      fullPath: C:\Users\user\FPS-2\UIElementsSchema\UnityEngine.UIElements.xsd
+      projectPath: UIElementsSchema\UnityEngine.UIElements.xsd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: dbbbb25ae555e52b5b2f1fc835fdf1f67e4e2c86
     mergeA: 
     mergeB: 

@@ -19,9 +19,11 @@ public class SC_EnemySpawner : MonoBehaviour
     //How many enemies we already eliminated in the current wave
     int enemiesEliminated = 0;
     int totalEnemiesSpawned = 0;
+    int points = 5;
 
     private bool nextChunk = false;
     private bool spawnEnemies = true;
+    private bool openShopDoor = false;
 
     public static SC_EnemySpawner Instance { get; private set; }
 
@@ -53,6 +55,12 @@ public class SC_EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(openShopDoor)
+        {
+            openShopDoor = false;
+            ChunkPlacer.Instance.OpenDoor();
+        }
+
         if (waitingForWave)
         {
             if (newWaveTimer >= 0)
@@ -130,7 +138,8 @@ public class SC_EnemySpawner : MonoBehaviour
     public void EnemyEliminated(SC_NPCEnemy enemy)
     {
         enemiesEliminated++;
-        player.ApplyPoints(5);
+        player.ApplyPoints(points);
+        points++;
 
         if (enemiesToEliminate - enemiesEliminated <= 0 && spawnEnemies)
         {
@@ -153,5 +162,10 @@ public class SC_EnemySpawner : MonoBehaviour
     {
         spawnPointsList.RemoveAt(0);
         spawnPointsList.RemoveAt(0);
+    }
+
+    public void OpenShopDoor(bool logic)
+    {
+        openShopDoor = logic;
     }
 }

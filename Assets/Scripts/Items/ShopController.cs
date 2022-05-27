@@ -40,21 +40,23 @@ public class ShopController : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay(Collider other)
+    /*private void OnTriggerStay(Collider other)
     {
-        if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && other.tag == "Player" && Input.GetKeyDown(KeyCode.F) && ispuse == false)
+        if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && other.tag == "Player"  && ispuse == false)
         {
             SC_DamageReceiver.Instance.SetOnPause(true);
             ispuse = true;
+            SC_EnemySpawner.Instance.OpenShopDoor(true);
         }
-    }
+    }*/
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" && Input.GetKeyDown(KeyCode.F) && ispuse == false)
+        if (!SC_DamageReceiver.Instance.IsOnPauseEsc() && other.tag == "Player"  && ispuse == false)
         {
             SC_DamageReceiver.Instance.SetOnPause(true);
             ispuse = true;
+            SC_EnemySpawner.Instance.OpenShopDoor(true);
         }
     }
 
