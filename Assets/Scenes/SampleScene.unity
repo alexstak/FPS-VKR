@@ -1461,6 +1461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879015441}
   - component: {fileID: 879015442}
+  - component: {fileID: 879015443}
   m_Layer: 0
   m_Name: EnemySpawner
   m_TagString: Untagged
@@ -1499,10 +1500,24 @@ MonoBehaviour:
   crosshairTexture: {fileID: 2800000, guid: 414521ddc8609d841a48b8df902007e7, type: 3}
   spawnInterval: 2
   enemiesPerWave: 5
+  dataManager: {fileID: 879015443}
   spawnPoints:
   - {fileID: 1151628378}
   - {fileID: 1432982318}
   - {fileID: 1763414408}
+--- !u!114 &879015443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879015440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d5ce407b243544fab6f0e24e1033e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1333213871}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

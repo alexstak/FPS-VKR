@@ -105,4 +105,14 @@ public class SC_DamageReceiver : MonoBehaviour, IEntity
     {
         return isSlowMotionUnlocked;
     }
+
+    public int getPlayerPoints()
+    {
+        return playerPoints;
+    }
+
+    public void setPlayerPoints(int points)
+    {
+        playerPoints = points;
+    }
 }

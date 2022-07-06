@@ -9,6 +9,7 @@ public class SC_EnemySpawner : MonoBehaviour
     public Texture crosshairTexture;
     public float spawnInterval = 2; //Spawn new enemy each n seconds
     public int enemiesPerWave = 5; //How many enemies per wave
+    public DataManager dataManager;
     public Transform[] spawnPoints;
 
     float nextSpawnTime = 0;
@@ -50,6 +51,8 @@ public class SC_EnemySpawner : MonoBehaviour
         //Wait 10 seconds for new wave to start
         newWaveTimer = 10;
         waitingForWave = true;
+
+        dataManager.LoadGame();
     }
 
     // Update is called once per frame
@@ -150,6 +153,8 @@ public class SC_EnemySpawner : MonoBehaviour
             ChunkPlacer.Instance.OpenDoor();
             DeleteSpawnPoints(2);
             spawnEnemies = false;
+
+            dataManager.SaveGame();
         }
     }
 

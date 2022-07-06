@@ -68,13 +68,16 @@
     <Compile Include="Assets\Scripts\NavMesh\LocalNavMeshBuilder.cs" />
     <Compile Include="Assets\Scripts\MenuScene\MenuControls.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\Pause.cs" />
     <Compile Include="Assets\Scripts\WeaponController\SC_Bullet.cs" />
     <Compile Include="Assets\Scripts\Player\SC_CharacterController.cs" />
     <Compile Include="Assets\Scripts\Items\AmmoBag.cs" />
+    <Compile Include="Assets\Scripts\MenuScene\Settings.cs" />
     <Compile Include="Assets\Scripts\Chunks\NavMeshUpdateOnEnable.cs" />
     <Compile Include="Assets\Scripts\Chunks\Chunk.cs" />
-    <Compile Include="Assets\Scripts\MenuScene\Settings.cs" />
-    <Compile Include="Assets\Scripts\MenuScene\Pause.cs" />
+    <Compile Include="Assets\Scripts\Data\DataManager.cs" />
+    <Compile Include="Assets\Scripts\Data\DataStructure.cs" />
+    <Compile Include="Assets\Scripts\Data\DataSerialize.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
