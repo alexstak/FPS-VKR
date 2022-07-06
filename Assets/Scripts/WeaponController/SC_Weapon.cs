@@ -16,6 +16,7 @@ public class SC_Weapon : MonoBehaviour
     public AudioClip fireAudio;
     public AudioClip reloadAudio;
     public ParticleSystem shotFlash;
+    public Transform hitFlash;
     public Transform bulletHole;
 
     [HideInInspector]
@@ -79,7 +80,7 @@ public class SC_Weapon : MonoBehaviour
                         if (npc == null)
                         {
                             //Apply damage to NPC
-                            StartCoroutine(makeBulletHole(hit));
+                            StartCoroutine(makeHitFlash(hit));
                         }
                     }
                     firePoint.LookAt(firePointPointerPosition);
@@ -139,10 +140,10 @@ public class SC_Weapon : MonoBehaviour
         canFire = true;
     }
 
-    IEnumerator makeBulletHole(RaycastHit hit)
+    IEnumerator makeHitFlash(RaycastHit hit)
     {
         Quaternion hitRotation = Quaternion.FromToRotation(Vector3.up, hit.normal);
-        Transform hole = Instantiate(bulletHole, hit.point, hitRotation);
+        Transform hole = Instantiate(hitFlash, hit.point, hitRotation);
         yield return new WaitForSeconds(5.0f);
         Destroy(hole.gameObject);
 
